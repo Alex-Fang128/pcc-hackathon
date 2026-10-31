@@ -1,0 +1,671 @@
+{
+  "checkedAt": "2026-10-30T20:46:03.691Z",
+  "sources": {
+    "upcoming": {
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=5&mode=detailed&location__ids=11&ordering=net",
+      "error": "HTTP 429; not retried during rate limit",
+      "fallback": "saved snapshot",
+      "snapshotSavedAt": "2026-10-30T20:30:59.515Z"
+    },
+    "previous": {
+      "url": "https://ll.thespacedevs.com/2.3.0/launches/previous/?limit=5&mode=detailed&location__ids=11&ordering=-net",
+      "error": "HTTP 429; not retried during rate limit",
+      "fallback": "saved snapshot",
+      "snapshotSavedAt": "2026-10-30T20:30:59.515Z"
+    },
+    "sites": {
+      "url": "https://planet4589.org/space/gcat/tsv/tables/sites.tsv",
+      "status": 200,
+      "cors": null,
+      "previousLiveCheckAt": "2026-10-30T20:45:36.590Z"
+    }
+  },
+  "launches": {
+    "upcoming": [
+      {
+        "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
+        "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+        "net": "2026-10-31T04:02:22Z",
+        "display": "Oct 30, 9:02 PM PDT",
+        "status": "Go for Launch",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sl-15-18",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
+        "name": "Falcon 9 Block 5 | USSF-432",
+        "net": "2026-11-03T01:42:00Z",
+        "display": "Nov 2, 5:42 PM PST",
+        "status": "Go for Launch",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/ussf432",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+        "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+        "net": "2026-11-06T02:21:00Z",
+        "display": "Nov 5, 6:21 PM PST",
+        "status": "Go for Launch",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sl-15-21",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
+        "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+        "net": "2026-11-10T03:03:00Z",
+        "display": "Nov 9, 7:03 PM PST",
+        "status": "To Be Confirmed",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://spacelaunchnow.app/launch/falcon-9-block-5-ussf-xxx-r-5/",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+        "name": "Falcon 9 Block 5 | NROL-195",
+        "net": "2026-11-30T00:00:00Z",
+        "display": "Nov 2026 · provisional",
+        "status": "To Be Determined",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://spacelaunchnow.app/launch/falcon-9-block-5-nrol-195/",
+        "withinPublishedWindow": true
+      }
+    ],
+    "previous": [
+      {
+        "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
+        "name": "Falcon 9 Block 5 | Starlink Group 15-16",
+        "net": "2026-10-27T07:25:51Z",
+        "display": "Oct 27, 12:25 AM PDT",
+        "status": "Launch Successful",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sl-15-16",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
+        "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+        "net": "2026-10-23T22:48:44Z",
+        "display": "Oct 23, 3:48 PM PDT",
+        "status": "Launch Successful",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sl-15-15",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
+        "name": "Falcon 9 Block 5 | USSF-481",
+        "net": "2026-10-16T00:01:05Z",
+        "display": "Oct 15, 5:01 PM PDT",
+        "status": "Launch Successful",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/ussf481",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+        "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+        "net": "2026-10-13T00:28:11Z",
+        "display": "Oct 12, 5:28 PM PDT",
+        "status": "Launch Successful",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sl-15-25",
+        "withinPublishedWindow": true
+      },
+      {
+        "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+        "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+        "net": "2026-10-10T07:39:44Z",
+        "display": "Oct 10, 12:39 AM PDT",
+        "status": "Launch Successful",
+        "pad": {
+          "lat": 34.632,
+          "lng": -120.611
+        },
+        "source": "https://www.spacex.com/launches/sda-t1tl-a",
+        "withinPublishedWindow": true
+      }
+    ]
+  },
+  "worldSites": [
+    {
+      "name": "Vandenberg",
+      "sourceCode": "VSFBS",
+      "reference": {
+        "lat": 34.63,
+        "lng": -120.61
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Cape Canaveral",
+      "sourceCode": "CCSFS",
+      "reference": {
+        "lat": 28.46,
+        "lng": -80.54
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Kennedy Space Center",
+      "sourceCode": "KSC",
+      "reference": {
+        "lat": 28.6083,
+        "lng": -80.6041
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Starbase",
+      "sourceCode": "STB",
+      "reference": {
+        "lat": 25.9964,
+        "lng": -97.1536
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Wallops / Mid-Atlantic",
+      "sourceCode": "WI",
+      "reference": {
+        "lat": 37.83,
+        "lng": -75.48
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Pacific Spaceport Alaska",
+      "sourceCode": "PSCA",
+      "reference": {
+        "lat": 57.4359,
+        "lng": -152.3378
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Guiana Space Centre",
+      "sourceCode": "CSG",
+      "reference": {
+        "lat": 5.2333,
+        "lng": -52.7517
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Alcântara",
+      "sourceCode": "ALCA",
+      "reference": {
+        "lat": -2.317,
+        "lng": -44.3671
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Andøya",
+      "sourceCode": "AND",
+      "reference": {
+        "lat": 69.2943,
+        "lng": 16.0207
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Plesetsk",
+      "sourceCode": "GIK-1",
+      "reference": {
+        "lat": 62.9,
+        "lng": 40.5
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Baikonur",
+      "sourceCode": "GIK-5",
+      "reference": {
+        "lat": 46,
+        "lng": 63
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Vostochny",
+      "sourceCode": "VOST",
+      "reference": {
+        "lat": 51.7,
+        "lng": 128
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Jiuquan",
+      "sourceCode": "JQ",
+      "reference": {
+        "lat": 41.31,
+        "lng": 100.31
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Taiyuan",
+      "sourceCode": "TYSC",
+      "reference": {
+        "lat": 37.5,
+        "lng": 112.6
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Xichang",
+      "sourceCode": "XSC",
+      "reference": {
+        "lat": 28.2472,
+        "lng": 102.0291
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Wenchang",
+      "sourceCode": "WEN",
+      "reference": {
+        "lat": 19.6142,
+        "lng": 110.9511
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Hainan Commercial",
+      "sourceCode": "HCSLS",
+      "reference": {
+        "lat": 19.5968,
+        "lng": 110.9308
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Satish Dhawan / Sriharikota",
+      "sourceCode": "SDSC",
+      "reference": {
+        "lat": 13.621,
+        "lng": 80.303
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Tanegashima",
+      "sourceCode": "TNSC",
+      "reference": {
+        "lat": 30.4,
+        "lng": 130.97
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Uchinoura",
+      "sourceCode": "USC",
+      "reference": {
+        "lat": 31.25,
+        "lng": 131.079
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Naro",
+      "sourceCode": "NARO",
+      "reference": {
+        "lat": 34.4318,
+        "lng": 127.5363
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Sohae",
+      "sourceCode": "SOHAE",
+      "reference": {
+        "lat": 39.66,
+        "lng": 124.706
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Semnan",
+      "sourceCode": "SEM",
+      "reference": {
+        "lat": 35.2347,
+        "lng": 53.921
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Shahroud",
+      "sourceCode": "SHAHR",
+      "reference": {
+        "lat": 36.23,
+        "lng": 55.33
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Palmachim",
+      "sourceCode": "PALB",
+      "reference": {
+        "lat": 31.9,
+        "lng": 34.7
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Māhia / Launch Complex 1",
+      "sourceCode": "MAHIA",
+      "reference": {
+        "lat": -39.2609,
+        "lng": 177.8655
+      },
+      "differenceMeters": 0,
+      "pass": true
+    },
+    {
+      "name": "Bowen Orbital Spaceport",
+      "sourceCode": "BOWEN",
+      "reference": {
+        "lat": -19.9582,
+        "lng": 148.1136
+      },
+      "differenceMeters": 0,
+      "pass": true
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=OVOVtaf15eY",
+      "publisher": "SPACE AFFAIRS",
+      "official": false,
+      "mission": "Starlink Group 15-18",
+      "status": 200,
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false,
+      "titleFromLaunchFeed": "GO! - SpaceX - Falcon 9 - Starlink 15-18 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+      "metadataNote": "YouTube oEmbed returned an iframe but omitted top-level title and author fields."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cANr44iNjd8",
+      "publisher": "SPACE AFFAIRS",
+      "official": false,
+      "mission": "USSF-432",
+      "status": 200,
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false,
+      "titleFromLaunchFeed": "GO! - SpaceX - Falcon 9 - USSF-432 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+      "metadataNote": "YouTube oEmbed returned an iframe but omitted top-level title and author fields."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk",
+      "publisher": "SPACE AFFAIRS",
+      "official": false,
+      "mission": "Starlink Group 15-21",
+      "status": 200,
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false,
+      "titleFromLaunchFeed": "GO!- SpaceX - Falcon 9 - Starlink 15-21 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+      "metadataNote": "YouTube oEmbed returned an iframe but omitted top-level title and author fields."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hj1OtIh4gCw",
+      "title": "SpaceX Starlink Group 15-16",
+      "publisher": "The Space Devs",
+      "official": false,
+      "mission": "Starlink Group 15-16",
+      "status": 200,
+      "author": "The Space Devs",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Wr5MiAFVyfo",
+      "title": "SpaceX Falcon 9 rocket launches 27 Starlink satellites from California",
+      "publisher": "Spaceflight Now",
+      "official": false,
+      "mission": "Starlink Group 15-16",
+      "status": 200,
+      "author": "Spaceflight Now",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cyJtopOtMZA",
+      "title": "SpaceX Starlink Group 15-15",
+      "publisher": "The Space Devs",
+      "official": false,
+      "mission": "Starlink Group 15-15",
+      "status": 200,
+      "author": "The Space Devs",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hANSUkrKDwQ",
+      "title": "SpaceX Falcon 9 rocket launches from California with 27 Starlink satellites",
+      "publisher": "Spaceflight Now",
+      "official": false,
+      "mission": "Starlink Group 15-15",
+      "status": 200,
+      "author": "Spaceflight Now",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0rd-mypixIg",
+      "title": "SpaceX USSF-481",
+      "publisher": "The Space Devs",
+      "official": false,
+      "mission": "USSF-481",
+      "status": 200,
+      "author": "The Space Devs",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vzFtQ3zsl4s",
+      "title": "SpaceX Falcon 9 rocket launches from California on classified U.S. Space Force mission",
+      "publisher": "Spaceflight Now",
+      "official": false,
+      "mission": "USSF-481",
+      "status": 200,
+      "author": "Spaceflight Now",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uwtmu8n99Pc",
+      "title": "SpaceX Starlink Group 15-25",
+      "publisher": "The Space Devs",
+      "official": false,
+      "mission": "Starlink Group 15-25",
+      "status": 200,
+      "author": "The Space Devs",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NZ19nf99NXA",
+      "title": "SpaceX Falcon 9 rocket launches from California with 27 Starlink satellites",
+      "publisher": "Spaceflight Now",
+      "official": false,
+      "mission": "Starlink Group 15-25",
+      "status": 200,
+      "author": "Spaceflight Now",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KwOyWO98vGI",
+      "title": "SpaceX Launches Falcon 9 with Starlink 15-25",
+      "publisher": "NASASpaceflight",
+      "official": false,
+      "mission": "Starlink Group 15-25",
+      "status": 200,
+      "author": "NASASpaceflight",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lrCq8bWuExs",
+      "title": "SpaceX SDA Tranche 1 Transport Layer A",
+      "publisher": "The Space Devs",
+      "official": false,
+      "mission": "SDA Tranche 1 Transport Layer A",
+      "status": 200,
+      "author": "The Space Devs",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ntJhonUlUlc",
+      "title": "Live: SpaceX Falcon 9 rocket launches from California for U.S. Military's Space Development Agency",
+      "publisher": "Spaceflight Now",
+      "official": false,
+      "mission": "SDA Tranche 1 Transport Layer A",
+      "status": 200,
+      "author": "Spaceflight Now",
+      "oembedProvidesPlayer": true,
+      "playbackVerified": false
+    }
+  ],
+  "location": {
+    "campus": {
+      "lat": 34.1442,
+      "lng": -118.1187
+    },
+    "candidates": [
+      {
+        "name": "The Quad",
+        "lat": 34.14505,
+        "lng": -118.11815,
+        "verifiedSightline": false
+      },
+      {
+        "name": "Robinson Stadium area",
+        "lat": 34.1422,
+        "lng": -118.1191,
+        "verifiedSightline": false
+      },
+      {
+        "name": "Colorado Boulevard frontage",
+        "lat": 34.14585,
+        "lng": -118.1192,
+        "verifiedSightline": false
+      }
+    ],
+    "deviceAccuracy": "Not tested: requires a device location permission and an on-site check."
+  },
+  "geometry": {
+    "distanceKm": 235.03417554653112,
+    "bearingDegrees": 284.0443397569907,
+    "pad": {
+      "lat": 34.632,
+      "lng": -120.611
+    }
+  },
+  "weather": {
+    "status": 200,
+    "cors": "*",
+    "campus": {
+      "cloud": 100,
+      "time": 1793419200000
+    },
+    "pad": {
+      "cloud": 100,
+      "time": 1793419200000
+    },
+    "sendsDeviceCoordinates": false
+  },
+  "browserChecks": {
+    "officialMission": {
+      "url": "https://www.spacex.com/launches/sl-15-18",
+      "result": "Mission page loaded; confirms Starlink, SLC-4E at Vandenberg and countdown. An explicit target timestamp was not exposed in the visible paragraph, so the fresh exact timestamp remains a feed-refresh limitation."
+    },
+    "nextVideo": {
+      "url": "https://www.youtube.com/watch?v=OVOVtaf15eY",
+      "result": "Page title matches Starlink 15-18. Player visibly says Live in 7 hours; October 30 at 8:50 PM, and Unable to play media. Scheduled coverage verified; actual playback not verified."
+    },
+    "deviceLocation": "Not granted or collected during this audit. Permission handling and use of coordinates reviewed in code. On-device accuracy still needs a user test."
+  },
+  "mapTileChecks": {
+    "PCC": {
+      "url": "https://tile.openstreetmap.org/12/704/1634.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    "SLC-4E": {
+      "url": "https://tile.openstreetmap.org/12/675/1627.png",
+      "status": 200,
+      "contentType": "image/png"
+    }
+  },
+  "fixes": [
+    "Provisional month/day targets retain UTC calendar boundaries; year and quarter precision do not invent a month.",
+    "Full cached launch records, map coordinates, dates and webcast metadata are checked before rendering.",
+    "Malformed optional provider metadata is ignored instead of crashing normalization.",
+    "Unused obsolete demo launch timestamp removed."
+  ],
+  "checks": {
+    "productionBuild": "passed",
+    "automatedTests": {
+      "passed": 12,
+      "failed": 0
+    }
+  }
+}
